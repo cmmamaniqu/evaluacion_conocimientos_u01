@@ -4,6 +4,7 @@ float suma(int);
 int factorial(int);
 int main(){
     int n;
+    cout<<"ingrese numero: ";cin>>n;
     float sum;
     cin>>n;
     sum=suma(n);
