@@ -3,8 +3,8 @@ using namespace std;
 int main(){
     float a,b;
     char op;
-    cin>>a;
-    cin>>b;
+    cout<<"Ingrese el primer numero: ";cin>>a;
+    cout<<"Ingrese el segundo numero: ";cin>>b;
     cin>>op;
     switch(op){
         case '+':
@@ -20,6 +20,15 @@ int main(){
           cout<<"r"<<a/b;
           
         break;
+        if(b!=0){
+        res=a/b;
+        cout<<"La division es: "<<res;
+        }
+        break;
+        default:
+        cout<<"op no valido: ";
+        break;
+        }
         }
         return 0;
 }
